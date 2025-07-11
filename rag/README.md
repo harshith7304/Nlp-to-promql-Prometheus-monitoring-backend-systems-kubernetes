@@ -1,6 +1,6 @@
 # RAG Versions for NL to PromQL Conversion
 
-This directory contains different versions of the RAG-based application for natural language to PromQL conversion. Each version explores a specific combination of components such as LLMs, embedding models, databases, retrievers, and prompts.
+ This directory contains different versions of the RAG-based application for natural language to PromQL conversion. Each version explores a specific combination of components such as LLMs, embedding models, databases, retrievers, and prompts.
 
 ## Table of Versions (RAG)
 
