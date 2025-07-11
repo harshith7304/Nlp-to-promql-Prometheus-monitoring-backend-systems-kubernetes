@@ -5,7 +5,7 @@
 
 ## Issue Summary
 
-During the deployment, it was observed that some Prometheus targets are in a "down" state. This means that Prometheus is unable to scrape metrics from these targets. Consequently, the data collected and reflected in the `tested_promql_title.csv` file is incomplete, as it only contains data from the targets that are currently "up."
+ During the deployment, it was observed that some Prometheus targets are in a "down" state. This means that Prometheus is unable to scrape metrics from these targets. Consequently, the data collected and reflected in the `tested_promql_title.csv` file is incomplete, as it only contains data from the targets that are currently "up."
 
 ### Key Objectives
 1. **Environment Setup**  
