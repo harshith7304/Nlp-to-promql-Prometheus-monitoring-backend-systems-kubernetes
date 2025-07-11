@@ -1,0 +1,69 @@
+description,metric_name
+Measures the CPU usage of a system or process.,cpu_usage
+Measures the memory consumption of a system or application.,memory_usage
+Represents the volume of network traffic.,network_traffic
+Represents the disk usage on a system.,disk_usage
+Measures the latency (delay) of requests.,request_latency
+Counts the number of users actively using the system.,active_users
+Represents the rate at which data is read from disk.,disk_read
+Measures the response time for HTTP requests.,http_response_time
+Counts the number of HTTP requests.,http_requests
+Measures the total time taken for database queries.,db_query_time
+Counts the number of errors occurring in the system.,errors
+Counts the number of active database connections.,db_connections
+Counts the number of successful login attempts.,login_success
+Measures the amount of data transferred over HTTP.,http_data_transferred
+Counts the number of errors occurring on the network.,network_errors
+Measures the rate at which data is written to disk.,disk_write
+Counts the number of HTTP errors.,http_errors
+Measures the uptime of the system.,uptime
+Measures the response time for API calls.,api_response_time
+Measures the average system load over a period.,system_load
+Counts the number of failed login attempts.,login_failed
+Counts the number of new user registrations.,user_registration
+Measures the response time for database queries.,db_query_response_time
+Counts the number of active sessions.,active_sessions
+Measures the CPU load average.,cpu_load
+Counts the number of alerts triggered.,alerts_triggered
+Measures the usage of disk space.,disk_space_usage
+Counts the number of active pods in a containerized environment.,pods_active
+Measures the latency in collecting or processing metrics.,metrics_latency
+Measures the traffic on HTTP ports.,http_traffic
+Counts the number of database query failures.,db_query_failures
+Counts the number of API requests.,api_requests
+Counts the number of database read queries.,db_read_queries
+Measures the duration of database queries.,db_query_duration
+Measures the disk space used by containers or systems.,disk_space_used
+Counts the number of API failures.,api_failures
+Counts the number of failed container deployments.,container_deployment_failures
+Measures the rate at which data is read (read traffic).,read_traffic
+Measures the response time for checkout operations.,checkout_response_time
+Counts the number of successful login attempts.,login_success
+Measures the duration of HTTP requests in seconds.,http_request_duration_seconds
+Measures the response time of HTTP endpoints in seconds.,http_response_time_seconds
+Provides bucketed response time data for HTTP requests.,http_response_duration_seconds_bucket
+Counts the number of database queries executed.,db_query_count
+Counts the number of disk read operations performed.,disk_read_ops
+Measures the network bandwidth usage.,network_bandwidth
+Calculates the rate of HTTP errors over time.,http_error_rate
+Counts the number of database write operations executed.,db_write_ops
+Measures the rate of new user signups.,user_signups
+Counts the number of successful login attempts.,login_success
+Measures the duration of HTTP requests in seconds.,http_request_duration_seconds
+Measures the response time of HTTP endpoints in seconds.,http_response_time_seconds
+Provides bucketed response time data for HTTP requests.,http_response_duration_seconds_bucket
+Counts the number of database queries executed.,db_query_count
+Counts the number of disk read operations performed.,disk_read_ops
+Measures the network bandwidth usage.,network_bandwidth
+Measures the CPU load of containers or systems.,cpu_load
+Calculates the rate of HTTP errors over time.,http_error_rate
+Counts the number of database write operations executed.,db_write_ops
+Measures the rate of new user signups.,user_signups
+Represents the number or rate of successful payment transactions.,payment_success
+"Counts the total number of HTTP requests received, optionally filtered by criteria.",http_requests
+Measures the memory consumption of containers or systems.,memory_usage
+"Measures the duration of HTTP requests in seconds, used to identify slow responses.",http_request_duration_seconds
+"Counts the number of database read operations, useful for assessing query load.",db_read_ops
+Provides histogram buckets for HTTP response times for quantile analysis.,http_response_time_seconds_bucket
+Measures the response time of HTTP endpoints in seconds.,http_response_time_seconds
+Calculates the error rate for HTTP requests over a specified period.,http_error_rate
